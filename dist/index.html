@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>TS</title>
+  </head>
+  <body>
+    <header><u>Service de Transactions</u></header>
+    <main>
+      <h1>Caisse</h1>
+      <div id="container">
+        <ul id="list"></ul>
+      </div>
+    </main>
+    <footer>
+      <fieldset>
+        <form>
+          <label><em>Type :</em></label>
+          <select id="type">
+            <option value="Débit">Débit</option>
+            <option value="Crédit">Crédit</option>
+          </select>
+          <label><em>Montant :</em></label>
+          <input id="montant" type="number" />
+          <label><em>Motif :</em></label>
+          <input id="motif" type="text" />
+          <button id="myButton"><b>Valider</b></button>
+        </form>
+        <span>BootCamp-2021 &copy; JPS_AG</span>
+      </fieldset>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
